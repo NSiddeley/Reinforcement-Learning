@@ -2,7 +2,7 @@
 
 This repository contains implementations of three classic reinforcement learning (RL) algorithms — **Monte Carlo**, **SARSA**, and **Q-learning** — applied to a common GridWorld environment.
 
-The goal is to compare the performance of these RL methods under various hyperparameter settings in a stochastic grid environment with walls, doors, and a defined goal state.
+The goal is to compare the performance of these RL methods under various parameter settings in a stochastic grid environment with walls, doors, and a defined goal state.
 
 ## Files
 
@@ -18,7 +18,7 @@ Each script:
 ## Environment
 
 The `GridWorld` environment is a 10x10 grid with:
-- A goal state at the bottom-right corner (9,9).
+- A goal state at the top-right corner (9,9).
 - Walls and doors that restrict movement between rooms.
 - Rewards: +1 for reaching the goal, -1 otherwise.
 - Stochastic transitions controlled by parameters `p1` (intended move), `p2` (stay in place), and `p3` (adjacent moves).
